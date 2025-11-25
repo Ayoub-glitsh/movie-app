@@ -1,4 +1,4 @@
-🎬 Movie App – React JS
+# 🎬 MOVIE APP – REACT JS
 
 Mini-application développée dans le cadre du module Développement Front-End (M204) – DEVOWFS-201 (ISTA Ouarzazate).
 
@@ -6,15 +6,16 @@ Cette application permet de rechercher des films, d’afficher les résultats so
 
 ---
 
-🚀 Fonctionnalités
+## 🚀 Fonctionnalités
 
-🔍 Recherche de films
+### 🔍 Recherche de films
 
 * Formulaire de recherche (composant SearchForm)
 * Affichage des résultats sous forme de cartes (MovieCard)
 * Utilisation de l'API OMDb : [http://www.omdbapi.com/?apikey=4a3b711b&s=TERM](http://www.omdbapi.com/?apikey=4a3b711b&s=TERM)
 
-🎬 Affichage des films en cartes
+### 🎬 Affichage des films en cartes
+
 Chaque carte de film affiche :
 
 * L’affiche (poster)
@@ -22,7 +23,8 @@ Chaque carte de film affiche :
 * L'année
 * Un lien vers la page des détails
 
-📄 Détails d’un film (MovieDetails)
+### 📄 Détails d’un film (MovieDetails)
+
 Affiche :
 
 * Synopsis
@@ -32,13 +34,15 @@ Affiche :
 * Image HD
   API utilisée : [http://www.omdbapi.com/?apikey=4a3b711b&i=ID_DU_FILM](http://www.omdbapi.com/?apikey=4a3b711b&i=ID_DU_FILM)
 
-⭐ Page Home (Films en tendance)
+### ⭐ Page Home (Films en tendance)
+
 Films obligatoires : ['tt0111161', 'tt0068646', 'tt0468569', 'tt0167260']
 
-ℹ️ Page About
+### ℹ️ Page About
+
 Informations sur l’application et le projet.
 
-🧭 Navigation (Navbar)
+### 🧭 Navigation (Navbar)
 
 * Home
 * Movies
@@ -46,7 +50,7 @@ Informations sur l’application et le projet.
 
 ---
 
-🗂️ Structure du projet
+## 🗂️ Structure du projet
 
 ```
 src/
@@ -65,7 +69,8 @@ src/
 
 ---
 
-🔧 Installation et lancement du projet
+## 🔧 Installation et lancement du projet
+
 1️⃣ Cloner le projet
 
 ```
@@ -82,20 +87,21 @@ npm install
 3️⃣ Lancer l’application
 
 ```
-npm start 
+npm start
 ```
 
 L'application sera disponible sur : [http://localhost:5173/](http://localhost:5173/) (ou un autre port)
 
 ---
 
-🌐 API utilisée : OMDb
+## 🌐 API utilisée : OMDb
+
 Site officiel : [https://www.omdbapi.com/](https://www.omdbapi.com/)
 Clé API gratuite fournie dans le sujet : apikey = 4a3b711b
 
 ---
 
-📝 Grille d’évaluation (CC2)
+## 📝 Grille d’évaluation (CC2)
 
 | Partie         | Note   |
 | -------------- | ------ |
@@ -109,7 +115,7 @@ Clé API gratuite fournie dans le sujet : apikey = 4a3b711b
 
 ---
 
-📌 Technologies utilisées
+## 📌 Technologies utilisées
 
 * React.js
 * React Router
@@ -119,6 +125,7 @@ Clé API gratuite fournie dans le sujet : apikey = 4a3b711b
 
 ---
 
-👨‍💻 Auteur
+## 👨‍💻 Auteur
+
 Ayoub Aguezzar
 Projet réalisé pour le module Développement Front-End – React (DEVOWFS-201)
