@@ -1,70 +1,118 @@
-# Getting Started with Create React App
+🎬 Movie App – React JS
+=======================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Mini-application développée dans le cadre du module **Développement Front-End (M204)** – DEVOWFS-201 (ISTA Ouarzazate).
 
-## Available Scripts
+Cette application permet de **rechercher des films**, d’afficher les résultats sous forme de cartes, de consulter les **détails complets** d’un film, et de visualiser une liste de **films en tendance**.
 
-In the project directory, you can run:
+🚀 Fonctionnalités
+------------------
 
-### `npm start`
+### 🔍 Recherche de films
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*   Formulaire de recherche (composant **SearchForm**)
+    
+*   Affichage des résultats sous forme de cartes (**MovieCard**)
+    
+*   Utilisation de l'API OMDb :http://www.omdbapi.com/?apikey=4a3b711b&s=TERM
+    
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🎬 Affichage des films en cartes
 
-### `npm test`
+Chaque carte de film affiche :
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*   L’affiche (poster)
+    
+*   Le titre
+    
+*   L'année
+    
+*   Un lien vers la page des détails
+    
 
-### `npm run build`
+### 📄 Détails d’un film (MovieDetails)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Affiche :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*   Synopsis
+    
+*   Acteurs
+    
+*   Genre
+    
+*   Note IMDB
+    
+*   Image HDAPI utilisée :http://www.omdbapi.com/?apikey=4a3b711b&i=ID\_DU\_FILM
+    
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### ⭐ Page Home (Films en tendance)
 
-### `npm run eject`
+Films obligatoires :\['tt0111161', 'tt0068646', 'tt0468569', 'tt0167260'\]
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ℹ️ Page About
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Informations sur l’application et le projet.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🧭 Navigation (Navbar)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+*   Home
+    
+*   Movies
+    
+*   About
+    
 
-## Learn More
+🗂️ Structure du projet
+-----------------------
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   src/  ├── components/  │   ├── SearchForm.js  │   ├── MovieCard.js  │   └── Navbar.js  │  ├── pages/  │   ├── About.js  │   ├── Home.js  │   ├── Movies.js  │   └── MovieDetails.js  │  ├── App.jsx  └── main.jsx   `
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔧 Installation et lancement du projet
+--------------------------------------
 
-### Code Splitting
+### 1️⃣ Cloner le projet
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   git clone https://github.com/Ayoub-glitsh/movie-app.git  cd movie-app   `
 
-### Analyzing the Bundle Size
+### 2️⃣ Installer les dépendances
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   npm install   `
 
-### Making a Progressive Web App
+### 3️⃣ Lancer l’application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   npm run dev   `
 
-### Advanced Configuration
+L'application sera disponible sur :👉 http://localhost:5173/ (ou un autre port)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+🌐 API utilisée : OMDb
+----------------------
 
-### Deployment
+Site officiel : [https://www.omdbapi.com/](https://www.omdbapi.com/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Clé API gratuite fournie dans le sujet :
 
-### `npm run build` fails to minify
+Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   apikey = 4a3b711b   `
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📝 Grille d’évaluation (CC2)
+----------------------------
+
+PartieNoteSearchForm2 ptsMovieCard2 ptsNavbar / About1 ptHome2 ptsMovies2 ptsMovieDetails1 pt**Total10 pts**
+
+📌 Technologies utilisées
+-------------------------
+
+*   React.js
+    
+*   React Router
+    
+*   Fetch API
+    
+*   JavaScript (ES6+)
+    
+*   HTML / CSS
+    
+
+👨‍💻 Auteur
+------------
+
+**Ayoub Aguezzar**Projet réalisé pour le module **Développement Front-End – React**.
