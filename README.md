@@ -1,6 +1,5 @@
 # 🎬 MOVIE APP – REACT JS
 
---- 
 <p align="center">
   <img src="assets/img/movie_01.jpeg" width="300" />
 </p>
