@@ -1,10 +1,10 @@
 # 🎬 MOVIE APP – REACT JS
 
 <p align="center">
-  <img src="assets/img/movie_01.jpeg" width="300" />
+  <img src="assets/img/movie_01.jpeg"  />
 </p>
 <p align="center">
-  <img src="assets/img/movie_02.jpeg" width="300" />
+  <img src="assets/img/movie_02.jpeg"  />
 </p>
 
 Mini-application développée dans le cadre du module Développement Front-End (M204) – DEVOWFS-201 (ISTA Ouarzazate).
