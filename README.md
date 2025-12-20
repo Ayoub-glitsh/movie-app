@@ -1,5 +1,10 @@
 # 🎬 MOVIE APP – REACT JS
 
+--- 
+<p align="center">
+  <img src="assets/gifs/celebration.gif" width="300" />
+</p>
+
 Mini-application développée dans le cadre du module Développement Front-End (M204) – DEVOWFS-201 (ISTA Ouarzazate).
 
 Cette application permet de rechercher des films, d’afficher les résultats sous forme de cartes, de consulter les détails complets d’un film, et de visualiser une liste de films en tendance.
