@@ -3,6 +3,8 @@
 --- 
 <p align="center">
   <img src="assets/img/movie_01.jpeg" width="300" />
+</p>
+<p align="center">
   <img src="assets/img/movie_02.jpeg" width="300" />
 </p>
 
